@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
 
 public enum ModItemTier implements IItemTier {
-    EXAMPLE(2,500,5,3,100,ItemInit.TESTITEM.get());
+    EXAMPLE(1,1000,10,.1f,100,ItemInit.TESTITEM.get());
 
     private final int harvestLevel;
     private final int maxUses;
