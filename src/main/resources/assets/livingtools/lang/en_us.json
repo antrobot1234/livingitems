@@ -1,5 +1,8 @@
 {
   "item.livingtools.testitem" : "test item",
+  "item.livingtools.testtool": "test tool",
+
   "block.livingtools.testblock": "test block",
+
   "itemGroup.livingtoolsTab": "LivingTools Tab"
 }
