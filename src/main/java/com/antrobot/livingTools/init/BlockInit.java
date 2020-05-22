@@ -11,5 +11,5 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, LivingTools.MOD_ID);
-    public static final RegistryObject<Block> TESTBLOCK = BLOCKS.register("testblock", () -> new Block(Block.Properties.create(Material.IRON)));
+    public static final RegistryObject<Block> TESTBLOCK = BLOCKS.register("testblock", () -> new Block(Block.Properties.create(Material.WOOL).hardnessAndResistance(0.5f)));
 }
