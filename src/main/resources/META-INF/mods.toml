@@ -1,0 +1,48 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory
+
+issueTrackerURL="http://google.com/" #optional
+
+[[mods]] #mandatory
+
+modId="livingtools" #mandatory
+
+version="0.0.1" #mandatory
+
+displayName="Living Tools" #mandatory
+
+updateJSONURL="http://google.com/" #optional
+
+displayURL="http://google.com/" #optional
+
+logoFile="afilenamegoeshere.png" #optional
+
+credits="antrobot1234" #optional
+
+authors="antrobot1234" #optional
+
+description='''
+    A mod that adds various in-world tools, weapons, and effects to make your minecraft life easier.
+'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.livingtools]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+
+
+[[dependencies.livingtools]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
