@@ -4,6 +4,7 @@
   "item.livingtools.specialitem": "Shifty Eye",
 
   "block.livingtools.testblock": "test block",
+  "block.livingtools.te_block": "Vertical Tunnel Bore",
 
   "itemGroup.livingtoolsTab": "LivingTools Tab"
 }
