@@ -2,6 +2,7 @@ package com.antrobot.livingTools;
 
 import com.antrobot.livingTools.init.BlockInit;
 import com.antrobot.livingTools.init.ItemInit;
+import com.antrobot.livingTools.init.TileEntityInit;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -48,6 +49,8 @@ public class LivingTools
         // Register ourselves for server and other game events we are interested in
         ItemInit.ITEMS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
+        TileEntityInit.TILE_ENTITES.register(modEventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
