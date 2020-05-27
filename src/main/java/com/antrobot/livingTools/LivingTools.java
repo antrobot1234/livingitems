@@ -1,6 +1,7 @@
 package com.antrobot.livingTools;
 
 import com.antrobot.livingTools.init.BlockInit;
+import com.antrobot.livingTools.init.ContainerInit;
 import com.antrobot.livingTools.init.ItemInit;
 import com.antrobot.livingTools.init.TileEntityInit;
 import net.minecraft.item.BlockItem;
@@ -50,6 +51,7 @@ public class LivingTools
         ItemInit.ITEMS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
         TileEntityInit.TILE_ENTITES.register(modEventBus);
+        ContainerInit.CONTAINERS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

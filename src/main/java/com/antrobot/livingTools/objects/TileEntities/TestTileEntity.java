@@ -29,6 +29,7 @@ public class TestTileEntity extends TileEntity implements ITickableTileEntity{
 
     @Override
     public void tick() {
+        if(world.isRemote)return;
         if(!initialized){init();}
         tick++;
         if(tick==20){
